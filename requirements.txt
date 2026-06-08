@@ -1,0 +1,11 @@
+# Only tested with python 3.12
+matplotlib==3.10.8
+bokeh==3.8.2
+datashader==0.18.2
+holoviews==1.22.1
+pandas==2.3.3
+torch==2.10.0
+PyYAML==6.0.3
+
+git+https://github.com/STMicroelectronics/stdatalog_pnpl.git@v1.3.0
+git+https://github.com/STMicroelectronics/stdatalog_core.git@v1.3.0

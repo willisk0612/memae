@@ -1,0 +1,122 @@
+npz_selection:
+  labels:
+  - healthy
+  - 1shim
+  - 2shims
+  loads:
+  - 0.05
+  - 0.1
+  runs:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  included_files:
+  - healthy-1000rpm-0p05nm-shaking-run1.npz
+  - healthy-1000rpm-0p05nm-shaking-run2.npz
+  - healthy-1000rpm-0p1nm-shaking-run1.npz
+  - healthy-1000rpm-0p1nm-shaking-run2.npz
+  excluded_files: []
+healthy_file_split:
+  train_files:
+  - healthy-1000rpm-0p05nm-run2.npz
+  - healthy-1000rpm-0p05nm-run3.npz
+  - healthy-1000rpm-0p05nm-run5.npz
+  - healthy-1000rpm-0p1nm-run1.npz
+  - healthy-1000rpm-0p1nm-run2.npz
+  - healthy-1000rpm-0p1nm-run3.npz
+  val_files:
+  - healthy-1000rpm-0p05nm-run6.npz
+  test_files:
+  - healthy-1000rpm-0p05nm-run4.npz
+  - healthy-1000rpm-0p1nm-run4.npz
+autoencoder_features:
+  vibration:
+  - ax__spkt_welch_density__coeff_2
+  - ax__standard_deviation
+  - ax__abs_energy
+  - ay__fft_coefficient__attr_"abs"__coeff_46
+  - az__standard_deviation
+  torque:
+  - torque__standard_deviation
+  - torque__abs_energy
+  - torque__spkt_welch_density__coeff_2
+  ultrasound:
+  - us__fft_coefficient__attr_"abs"__coeff_49
+  - us__fft_coefficient__attr_"abs"__coeff_46
+  - us__fft_coefficient__attr_"abs"__coeff_51
+tuning:
+  autoencoder:
+    vibration:
+      lambda_h: 0.054413555976362694
+      lambda_shk: 0.001931167281642602
+      threshold_pct: 99.04901928574209
+      ema_alpha: 0.0033363175756754935
+      calibrate_with_shaking: true
+      persistence_windows: 18
+    torque:
+      lambda_h: 0.002751713558702068
+      lambda_shk: 6.962873042980179e-05
+      threshold_pct: 98.76038724193496
+      ema_alpha: 0.03606285992513202
+      calibrate_with_shaking: false
+      persistence_windows: 23
+    ultrasound:
+      lambda_h: 3.1664559565836845e-06
+      lambda_shk: 0.0005548673648151952
+      threshold_pct: 99.65172234440321
+      ema_alpha: 0.01894636850961177
+      calibrate_with_shaking: false
+      persistence_windows: 18
+    vibration_torque:
+      lambda_h: 1.5116692370555575e-06
+      lambda_shk: 0.008491460376372172
+      threshold_pct: 99.2
+      ema_alpha: 0.02248211294993081
+      calibrate_with_shaking: true
+      persistence_windows: 20
+    vibration_ultrasound:
+      lambda_h: 0.606828580251839
+      lambda_shk: 0.02187697758884947
+      threshold_pct: 98.88233071099054
+      ema_alpha: 0.0020012218248823444
+      calibrate_with_shaking: false
+      persistence_windows: 25
+  autoencoder_conv:
+    vib:
+      lambda_h: 2.0298008412919552e-05
+      lambda_shk: 0.005253118555434293
+      threshold_pct: 99.3902507026396
+      ema_alpha: 0.04999391066485015
+      persistence_windows: 24
+      calibrate_with_shaking: true
+    torque:
+      lambda_h: 0.0001359498377508445
+      lambda_shk: 0.005105977484769587
+      threshold_pct: 99.95578389190807
+      ema_alpha: 0.0402229297015771
+      persistence_windows: 6
+      calibrate_with_shaking: true
+    us:
+      lambda_h: 0.00014136346561640254
+      lambda_shk: 0.005718609416397536
+      threshold_pct: 98.8583385615402
+      ema_alpha: 0.007449066941958149
+      persistence_windows: 24
+      calibrate_with_shaking: true
+    vib_torque:
+      lambda_h: 1.1091814877139725e-05
+      lambda_shk: 0.00022310108018679258
+      threshold_pct: 99.7314861154041
+      ema_alpha: 0.013846905247421064
+      persistence_windows: 19
+      calibrate_with_shaking: true
+    vib_us:
+      lambda_h: 0.0005615045031852873
+      lambda_shk: 0.020882129963178727
+      threshold_pct: 99.21199411643339
+      ema_alpha: 0.015560197225405158
+      persistence_windows: 23
+      calibrate_with_shaking: true

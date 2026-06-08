@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="s120StartDriveTest_V19" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:09">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:12" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:12">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:14" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:14">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:14" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:15">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair clear segment flags" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:15" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="A user with the required engineering right &quot;Upgrade project&quot; has logged on." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Removing outdated system roles." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The removal of outdated system roles has finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Engineering rights that are no longer supported are deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Engineering rights that are no longer supported were deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="System-defined runtime rights are deleted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Deletion of system runtime rights was completed." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Starting change link between DFR and DFRSet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Finished change link between DFR and DFRSet" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Starting data conversion workflow for umac entities i.e. System Role, EFR &amp; DFR" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:30">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Finished data conversion workflow for umac entities i.e. System Role, EFR &amp; DFR" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:57">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information is being converted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:59">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information was created successfully." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:12:59">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversion of the cross-reference information is finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'HW.SinamicsS.SM.spec.xxxxxxx-xxxxx-xxxx_588_V1.0_15.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'HW.SinamicsS.MOT.MOT_SYN.MOT_1FK2.unsp.1FK2xxx-xxxxx-xxxx_26000_V1.0_15.1.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'HW.SinamicsS.SM.spec.6SL3055-0AA00-5Axx_578_V1.0_15.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'HW.SinamicsS.SUP_SYS_COMP.SUP_SYS_COMP_CUA.unsp.6SL3040-0PA0x-xxxx_560_V1.0_16.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V18.0.1.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Package container 'HW.S71500.UnspecificCPU.CPU_15XX_Unspecific.MDD_6ES75XX_XXXXX_XXXX_3.0_18.0.10' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Product version 'Siemens.MC.Drives.Acx:18.00.02.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Professional:18.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:12:59" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:18.00.01.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="2024-05-13 09:13:00">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Project 'C:\Users\mudi\Documents\Automation\Mustad\s120StartDriveTest\System\PEData.plf' was successfully upgraded and saved as project 'C:\Users\mudi\Documents\Automation\Mustad\s120StartDriveTest_V19\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2024-05-13 09:13:00">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2024-05-13 09:13:00" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
